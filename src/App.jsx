@@ -5,6 +5,9 @@ import Classes from './components/Classes'
 import Booking from './components/Booking'
 import Footer from './components/Footer'
 import Preloader from './components/Preloader'
+import WhyUs from './components/WhyUs'
+import Testimonials from './components/Testimonials'
+import Pricing from './components/Pricing'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -26,7 +29,10 @@ function App() {
             transition={{ duration: 0.4 }}
           >
             <Hero />
+            <WhyUs />
             <Classes />
+            <Testimonials />
+            <Pricing />
             <Booking />
             <Footer />
           </motion.main>
